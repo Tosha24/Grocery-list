@@ -1,0 +1,39 @@
+.container {
+  box-sizing: border-box;
+  align-items: center;
+  margin: 70px auto;
+  max-width: 1000px;
+  min-height: 580px;
+  max-height: 600px;
+  width: 70%;
+  background-color: aquamarine;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 30px;
+}
+
+.items {
+  margin: 0px 0px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.content {
+  margin: 30px 70px;
+}
+
+@media only screen and (max-width: 600px) {
+  /*Big smartphones [426px -> 600px]*/
+  .container {
+    overflow: hidden;
+    width: 320px;
+  }
+  .items{
+    display: block;
+  }
+  .content{
+    margin: 10px 0px;
+  }
+}
+@media only screen and (max-width: 425px) {
+  /*Small smartphones [325px -> 425px]*/
+}

@@ -1,0 +1,54 @@
+.list_item{
+    list-style-type: none;
+    padding: 5px;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.list_item:hover{
+    background-color: lightblue;
+}
+
+input[type=checkbox]{
+    transform: scale(1.5);
+}
+
+input[type=checkbox]:hover{
+    border-color: red;
+}
+
+.item_checkbox{
+    margin-right: 8px;
+    margin-left: 5px;
+}
+
+.empty_list{
+    font-size: 40px;
+    width: 800px;
+    color: red;
+    /* border: 1px solid black; */
+    padding: 70px 0px;
+    padding-left: 30%;
+}
+
+.table{
+    width: 800px;
+}
+
+.delete_icon:hover{
+    color: red;
+}
+
+@media only screen and (max-width: 600px){
+    .empty_list{
+        width: 260px;
+        font-size: 30px;
+        white-space: nowrap;
+        padding: 70px 0px;
+        margin-left: 30px;
+    }
+    .table{
+        width: 300px;
+    }
+}
