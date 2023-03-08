@@ -1,20 +1,39 @@
-.header_title{
-    align-items: center;
-    justify-content: center;
-    padding: 10px;
-    max-width: fit-content;
-    margin: 0px auto;
-    color: black;
+.header_title {
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  max-width: fit-content;
+  margin: 0px auto;
+  color: black;
 }
 
-.title{
-    font-size: 30px;
-    font-weight: 600;
-    margin-left: 50px;
+.title {
+  font-size: 30px;
+  font-weight: 600;
+  margin-left: 50px;
 }
 
-@media only screen and (max-width: 600px){
-    .title{
-        margin-left: 0px;
-    }
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .title {
+    margin-left: 0px;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .header_title {
+        align-items: center;
+        justify-content: center;
+        padding: 10px;
+        max-width: fit-content;
+        margin: 0px auto;
+        color: black;
+      }
+      
+      .title {
+        font-size: xx-large;
+        font-weight: 600;
+        margin-left: 50px;
+      }
 }
